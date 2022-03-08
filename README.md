@@ -1,5 +1,8 @@
 # support-ukraine-bar
 
+## View
+![save-ukraine-bar demo screnshot](img/save-ukraine-bar-demo.png)
+
 ## Properties
 * Minimal supported width: 320px
 * No extra dependencies
@@ -8,7 +11,7 @@
 
 ## How to add banner to your website?
 1. Copy HTML content between "Start" / "End" comments from **bar.htm** into your HTML file.
-2. Copy CSS styles from **bar.css** into CSS file.
+2. Copy CSS styles from **bar.css** into your CSS file. *(all classes have "diib" prefix)*
 3. Optional: Add Poppins font from Google Fonts
 ```html
 <head>

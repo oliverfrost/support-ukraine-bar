@@ -79,7 +79,7 @@
 @media (min-width: 420px) {
     .diib-slogan {
         width: 55%;
-        padding: 0 0 0 12px;
+        padding: 0 12px 0 12px;
     }
 
     .diib-how-to-help {
