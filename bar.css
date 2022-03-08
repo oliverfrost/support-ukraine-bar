@@ -1,0 +1,194 @@
+.diib-support-ukraine {
+    display: flex;
+    height: 36px;
+    width: 100%;
+    padding-right: 10px;
+    font-family: Poppins, sans-serif, Arial;
+    background-color: #0033B8;
+    filter: drop-shadow(0px 1px 10px rgba(125, 125, 146, 0.5));
+}
+
+.diib-slogan {
+    height: 36px;
+    width: 67%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 6px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    background-color: #FFE01C;
+}
+
+.diib-slogan:after {
+    height: 0;
+    width: 0;
+    left: 100%;
+    top: 0;
+    border: 18px solid transparent;
+    border-left: 7px solid #FFE01C;
+    content: "";
+    position: absolute;
+}
+
+.diib-slogan__image {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.diib-slogan__text {
+    margin: 0;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.diib-slogan__text--tablet {
+    display: none;
+}
+
+.diib-how-to-help {
+    width: 33%;
+    box-sizing: border-box;
+    float: right;
+    padding-left: 12px;
+}
+
+.diib-how-to-help__link {
+    margin: 0;
+    margin-left: 12px;
+    float: left;
+    font-size: 11px;
+    line-height: 36px;
+    color: white;
+    text-decoration: underline;
+}
+
+.diib-how-to-help__link--tablet {
+    display: none;
+}
+
+.diib-info-icon {
+    display: none;
+}
+
+@media (min-width: 420px) {
+    .diib-slogan {
+        width: 55%;
+        padding: 0 0 0 12px;
+    }
+
+    .diib-how-to-help {
+        width: 45%;
+        padding-left: 18px;
+    }
+}
+
+@media (min-width: 1156px) {
+    .diib-support-ukraine {
+        height: 56px;
+    }
+
+    .diib-slogan {
+        height: 56px;
+        width: 50%;
+        padding: 0 60px;
+    }
+
+    .diib-slogan:after {
+        border-width: 28px;
+        border-left-width: 10px;
+    }
+
+    .diib-slogan__text {
+        line-height: 64px;
+        font-size: 16px;
+    }
+
+    .diib-slogan__image {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+    }
+
+    .diib-slogan__text--mobile {
+        display: none;
+    }
+
+    .diib-slogan__text--tablet {
+        display: inline-block;
+        line-height: 56px;
+    }
+
+    .diib-how-to-help {
+        width: 50%;
+        padding: 0 18px 0 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .diib-how-to-help__link {
+        font-size: 16px;
+        line-height: 56px;
+    }
+
+    .diib-how-to-help__link--mobile {
+        display: none;
+    }
+
+    .diib-how-to-help__link--tablet {
+        display: inline;
+    }
+
+    .diib-info-icon {
+        display: inline-block;
+        font-size: 16px;
+        float: left;
+    }
+}
+
+@media (min-width: 1750px) {
+    .diib-support-ukraine {
+        height: 64px;
+    }
+
+    .diib-slogan {
+        height: 64px;
+    }
+
+    .diib-slogan:after {
+        border-width: 32px;
+        border-left-width: 14px;
+    }
+
+    .diib-slogan__image {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+    }
+
+    .diib-slogan__text {
+        font-size: 20px;
+        line-height: 64px;
+    }
+
+    .diib-how-to-help {
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+
+    .diib-how-to-help__link {
+        font-size: 20px;
+        line-height: 64px;
+    }
+
+    .diib-info-icon {
+        width: 24px;
+        height: 24px;
+    }
+}
